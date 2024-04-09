@@ -27,6 +27,10 @@ limit : 20 -->the 20 first result of the data
 
 <!-- Your Query Goes Here -->
 
+{'acquisition.acquired_year': {$gt: 2010}}
+{name: 1, acquisition: 1, \_id: 0}
+{'acquisition.price_amount': -1}
+
 <br>
 
 **4. All the companies that had a Valuation Amount of more than 100.000.000 and have been founded before 2010. Retrieve only the `name` and `ipo` fields.**
